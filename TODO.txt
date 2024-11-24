@@ -1,7 +1,37 @@
-- Figure out the flow and how to submit
+Todo
 
-- plan out future directions
-	-  DATA AUGMENTATION
-	-  complex loss function
-	-  Pretrained RNN models
-	- more actions
+
+- Data Augmentation Ideas
+	- see [1] 4.3: when generating image, it can also help to generate images using b*t1 + (1-b)*t2 as text embed, which is marked as fake image. this basically squares the amount of fake images.
+	- investigate the multiple captions for some images. maybe we can use them all instead of picking only 1 of them.
+
+- Search for a better pre-trained text encoder
+	- [2] 4.2 proposed a CNN-RNN framework that can potentially be helpful
+	- Transformer or RNN?
+
+- Experimenting with more complex gen/disc model structures.
+	- utilize deconvolution layers on gen models
+	- utilize convolution layers on disc models
+
+- Loss Function engineering
+	- [1] mentioned a possibility to split the loss into multiple types, such as "not realistic" loss, "unmatching with context" loss
+
+
+
+
+
+
+Timeline
+
+- Familiarize Inputs and dimensions
+
+- look for deeper gen/disc structure
+	- use resnet embedding for disc
+	- GigaGAN https://github.com/lucidrains/gigagan-pytorch/tree/main
+
+- Data augmentations
+
+- Text Encoder
+
+- Tinkering with Loss Function
+

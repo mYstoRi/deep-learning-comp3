@@ -1,0 +1,18 @@
+not all important files are included in the GitHub. So if you wish to run the notebook, please follow these steps:
+
+0. clone / pull the repo
+
+1. go to the Kaggle page
+	https://www.kaggle.com/competitions/2024-datalab-cup-3-reverse-image-caption/overview
+
+2. download the dataset and unzip it somewhere else
+
+3. copy only the testing folder from the unzipped dataset over to the repository.
+
+4. (if you don't have  4 gpus which is probably always) comment out  the 39th line because this only works when you have 4 gpus for some reason.
+
+
+
+If you want to submit a result to Kaggle, run the entire notebook.
+the output should be in testing/output.csv.
+This can be changed in the last command line in the notebook.
