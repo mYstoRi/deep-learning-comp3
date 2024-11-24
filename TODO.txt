@@ -1,6 +1,11 @@
 Todo
 
 
+Current Problem
+- Discriminator with resnet actually suck, like suck suck.
+- Generator with deconv outputs the same image for all inputs.
+
+
 - Data Augmentation Ideas
 	- see [1] 4.3: when generating image, it can also help to generate images using b*t1 + (1-b)*t2 as text embed, which is marked as fake image. this basically squares the amount of fake images.
 	- investigate the multiple captions for some images. maybe we can use them all instead of picking only 1 of them.
@@ -22,8 +27,6 @@ Todo
 
 
 Timeline
-
-- Familiarize Inputs and dimensions
 
 - look for deeper gen/disc structure
 	- use resnet embedding for disc
