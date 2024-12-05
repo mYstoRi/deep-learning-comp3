@@ -9,7 +9,11 @@ not all important files are included in the GitHub. So if you wish to run the no
 
 3. copy only the testing folder from the unzipped dataset over to the repository.
 
-4. (if you don't have  4 gpus which is probably always) comment out  the 39th line because this only works when you have 4 gpus for some reason.
+4. type this in the url 
+	https://tfhub.dev/google/universal-sentence-encoder/4?tf-hub-format=compressed
+	it will download a tar.gz. unzip it and put it in checkpoints/universal_sentense_encoder/
+
+5. (if you don't have 4 gpus which is probably always) comment out  the 39th line because this only works when you have 4 gpus for some reason.
 
 
 

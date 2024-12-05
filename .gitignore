@@ -1,3 +1,5 @@
 inference
 testing/checkpoints_transfer_fine_tune
 2024-datalab-cup-3-reverse-image-caption.zip
+/checkpoints
+samples
